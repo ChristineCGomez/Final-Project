@@ -1,2 +1,2 @@
-This is a Laboratory Activity on Modules 1, 2, 3, 4, & 5.
-This is my final project.
+The quiz is integrated in the file "Wellness Transformation Health Revolution.html" The quiz works by clicking the choices provided and once clicked, it changes colors. When the color changes to green it means the answer is correct. Otherwise, its wrong. To move to the next question, click the "next" button. In this quiz, you can't go back to the previous questions. You can restart the quiz and the questions will still be the same, however, they are reshuffled. 
+These are the revisions I have done for the 3rd Quarter.
