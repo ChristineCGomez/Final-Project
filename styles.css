@@ -54,8 +54,8 @@ header p {
 }
 
  .sprite-a {
-            width: 100px; 
-            height: 120px; 
+            width: 150px; 
+            height: 100px; 
             background: url('images/sprite.jpg') no-repeat;
             background-size: 720px 120px; 
             animation: fadeIn 0.5s ease-out, play-sprite 1s steps(6) infinite;
