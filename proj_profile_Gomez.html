@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Profile - Care4All</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to Care4All!</h1>
+  </header>
+
+  <section>
+    <p><strong>Name:</strong> <span id="fullName"></span></p>
+    <p><strong>Email:</strong> <span id="email"></span></p>
+    <p><strong>Sex:</strong> <span id="sex"></span></p>
+    <p><strong>Why you support this campaign:</strong></p>
+    <p id="reason"></p>
+  </section>
+
+  <script>
+    document.getElementById("fullName").textContent = localStorage.getItem("firstName") + " " + localStorage.getItem("lastName");
+    document.getElementById("email").textContent = localStorage.getItem("email");
+    document.getElementById("sex").textContent = localStorage.getItem("sex");
+    document.getElementById("reason").textContent = localStorage.getItem("reason");
+  </script>
+</body>
+</html>

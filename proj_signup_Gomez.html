@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Signup</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🩺 Care4All</h1>
+    <p>Everyone deserves access to healthcare.</p>
+  </header>
+
+  <section>
+    <form id="signupForm">
+      <label>First Name*: <input type="text" id="firstName"><span class="error" id="firstNameError"></span></label><br>
+      <label>Last Name*: <input type="text" id="lastName"><span class="error" id="lastNameError"></span></label><br>
+
+      <label>Sex*:</label>
+      <input type="radio" name="sex" value="Male">Male
+      <input type="radio" name="sex" value="Female">Female
+      <input type="radio" name="sex" value="Prefer not to say">Prefer not to say
+      <span class="error" id="sexError"></span><br>
+
+      <label>Email*: <input type="text" id="email"><span class="error" id="emailError"></span></label><br>
+      <label>Password*: <input type="password" id="password"><span class="error" id="passwordError"></span></label><br>
+      <label>Contact Number: <input type="text" id="contact"></label><br>
+
+      <label>Why are you supporting our campaign?*<br>
+        <textarea id="reason"></textarea><span class="error" id="reasonError"></span>
+      </label><br>
+
+      <button type="button" onclick="submitForm()">Join the Cause</button>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
