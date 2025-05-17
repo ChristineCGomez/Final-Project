@@ -57,11 +57,11 @@ header p {
             width: 120px; 
             height: 120px; 
             background: url('images/sprite.jpg') no-repeat;
-            background-size: 720px 240px; 
-            animation: sprite-animation 1s steps(6) infinite;
+            background-size: 720px 120px; 
+            animation: fadeIn 0.5s ease-out, play-sprite 1s steps(6) infinite;
         }
 
-        @keyframes sprite-animation {
+        @keyframes play-sprite {
             from {
                 background-position: 0px 0;
             }
