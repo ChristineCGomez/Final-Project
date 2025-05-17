@@ -58,7 +58,7 @@ header p {
             height: 306px; 
             background: url('images/sprite.jpg') no-repeat;
             background-size: 612px 612px; 
-            animation: fadeIn 2s ease-out, sprite-animation 2s steps(6) infinite;
+            animation: fadeIn 0.5s ease-out, sprite-animation 2s steps(6) infinite;
         }
 
        @keyframes sprite-animation {
