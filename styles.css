@@ -54,10 +54,10 @@ header p {
 }
 
 .sprite-a  {
-      width: 52px; /* width of one frame */
-      height: 140px; /* height of one frame */
-      background: url('sprite1.jpg') no-repeat;
-      background-size: 260px 280px; /* full size of sprite sheet */
+      width: 52px; 
+      height: 140px; 
+      background: url('images/sprite1.jpg') no-repeat;
+      background-size: 260px 280px; 
       animation: walk 1s steps(10) infinite;
     }
 
