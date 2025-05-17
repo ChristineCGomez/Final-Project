@@ -56,7 +56,7 @@ header p {
  .sprite-a {
             width: 120px; 
             height: 120px; 
-            background: url('images/sprite.webp') no-repeat;
+            background: url('images/sprite.jpg') no-repeat;
             background-size: 720px 240px; 
             animation: sprite-animation 1s steps(6) infinite;
         }
