@@ -54,21 +54,23 @@ header p {
 }
 
  .sprite-a {
-            width: 150px; 
-            height: 100px; 
+            width: 204px; 
+            height: 306px; 
             background: url('images/sprite.jpg') no-repeat;
-            background-size: 720px 120px; 
-            animation: fadeIn 0.5s ease-out, play-sprite 1s steps(6) infinite;
+            background-size: 612px 612px; 
+            animation: fadeIn 0.5s ease-out, sprite-animation 1s steps(6) infinite;
         }
 
-        @keyframes play-sprite {
-            from {
-                background-position: 0px 0;
-            }
-            to {
-                background-position: -720px 0;
-            }
+       @keyframes sprite-animation {
+    	    0% { background-position:    0px   0px; }
+   	    16.6% { background-position: -204px   0px; }
+   	    33.3% { background-position: -408px   0px; }
+   	    50%   { background-position:    0px -306px; }
+   	    66.6% { background-position: -204px -306px; }
+   	    83.3% { background-position: -408px -306px; }
+  	    100%   { background-position:    0px   0px; }
         }
+
         @keyframes fadeIn {
             from { opacity: 0; transform: translateY(-10px); }
             to { opacity: 1; transform: translateY(0); }
