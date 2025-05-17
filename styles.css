@@ -58,10 +58,10 @@ header p {
       height: 140px; 
       background: url('images/sprite1.jpg') no-repeat;
       background-size: 260px 280px; 
-      animation: walk 1s steps(10) infinite;
+      animation: prite-animation 2s steps(10) infinite;
     }
 
-    @keyframes walk {
+    @keyframes sprite animation {
       from {
         background-position: 0 0;
       }
