@@ -53,28 +53,22 @@ header p {
 	height: 43px;
 }
 
-.sprite-a {
-            width: 204px; 
-            height: 306px; 
-            background: url('images/sprite.jpg') no-repeat;
-            background-size: 612px 612px; 
-            animation: fadeIn 1s ease-out, sprite-animation 5s steps(6) infinite;
-        }
+.sprite-a  {
+      width: 52px; /* width of one frame */
+      height: 140px; /* height of one frame */
+      background: url('sprite1.jpg') no-repeat;
+      background-size: 260px 280px; /* full size of sprite sheet */
+      animation: walk 1s steps(10) infinite;
+    }
 
-       @keyframes sprite-animation {
-    	    0% { background-position:    0px   0px; }
-   	    16.6% { background-position: -204px   0px; }
-   	    33.3% { background-position: -408px   0px; }
-   	    50%   { background-position:    0px -306px; }
-   	    66.6% { background-position: -204px -306px; }
-   	    83.3% { background-position: -408px -306px; }
-  	    100%   { background-position:    0px   0px; }
-        }
-
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(-10px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
+    @keyframes walk {
+      from {
+        background-position: 0 0;
+      }
+      to {
+        background-position: -260px -140px;
+      }
+    }
 
 aside {
  text-align : left;
