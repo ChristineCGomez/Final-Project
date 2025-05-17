@@ -54,7 +54,7 @@ header p {
 }
 
  .sprite-a {
-            width: 120px; 
+            width: 100px; 
             height: 120px; 
             background: url('images/sprite.jpg') no-repeat;
             background-size: 720px 120px; 
