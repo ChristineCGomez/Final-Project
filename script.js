@@ -47,6 +47,6 @@ function submitForm() {
     localStorage.setItem("sex", sex.value);
     localStorage.setItem("reason", reason);
 
-    window.location.href = "proj_profile_yourlastname.html";
+    window.location.href = "proj_profile_Gomez.html";
   }
 }
