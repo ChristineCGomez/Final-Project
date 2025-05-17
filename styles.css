@@ -58,15 +58,15 @@ header p {
       height: 140px; 
       background: url('images/sprite1.jpg') no-repeat;
       background-size: 260px 280px; 
-      animation: prite-animation 2s steps(10) infinite;
+      animation: sprite-animation 2s steps(10) infinite;
     }
 
-    @keyframes sprite animation {
+    @keyframes sprite-animation {
       from {
         background-position: 0 0;
       }
       to {
-        background-position: -208px -140px;
+        background-position: -208px 0px;
       }
     }
 
