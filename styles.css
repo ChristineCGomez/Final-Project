@@ -47,46 +47,32 @@ header p {
     margin-top: 10px;
 }
 
-sprite {
-  background: url('images/icon.jpg') no-repeat -376px 0;
-  width: 43px;
-  height: 43px;
-  display: inline-block;
+.sprite {
+	background: url('images/icon.jpg') no-repeat -376px 0;
+	width: 43px;
+	height: 43px;
 }
 
-.sprite-a {
-  width: 120px;
-  height: 120px;
-  background: url('images/sprite.png') no-repeat 0 0;
-  background-size: 720px 240px; /* total width x height of sprite sheet */
-  animation: spriteAnimation 1s steps(6) infinite;
-  display: inline-block;
-  margin: 10px auto;
-}
+ .sprite-a {
+            width: 120px; 
+            height: 120px; 
+            background: url('images/sprite.webp') no-repeat;
+            background-size: 720px 240px; 
+            animation: sprite-animation 1s steps(6) infinite;
+        }
 
-@keyframes spriteAnimation {
-  from {
-    background-position: 0 0;
-  }
-  to {
-    background-position: -720px 0;
-  }
-}
-
-.fade-in {
-  animation: fadeIn 0.6s ease-in-out both;
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(-10px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
+        @keyframes sprite-animation {
+            from {
+                background-position: 0px 0;
+            }
+            to {
+                background-position: -720px 0;
+            }
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
 
 aside {
  text-align : left;
