@@ -67,6 +67,10 @@ header p {
             to {
                 background-position: -720px 0;
             }
+       @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-10px); }
+            to { opacity: 1; transform: translateY(0); }
+}
         }
 aside {
  text-align : left;
@@ -246,10 +250,4 @@ textarea {
 
 strong {
   color: #2a9d8f;
-}
-
-
-@keyframes fadeIn {
-    from { opacity: 0; transform: translateY(-10px); }
-    to { opacity: 1; transform: translateY(0); }
 }
